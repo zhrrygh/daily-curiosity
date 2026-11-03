@@ -1,0 +1,21 @@
+name: Synchronize owner feedback
+on:
+  issues:
+    types: [opened, edited, reopened]
+permissions:
+  contents: read
+concurrency:
+  group: owner-feedback
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[好奇日报反馈]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/feedback.mjs
+        env:
+          SOURCE_SITE_TOKEN: ${{ secrets.SOURCE_SITE_TOKEN }}

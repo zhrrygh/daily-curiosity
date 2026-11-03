@@ -32,6 +32,8 @@ jobs:
           SOURCE_SITE_TOKEN: ${{ secrets.SOURCE_SITE_TOKEN }}
           REQUIRE_SYNC: ${{ github.event_name == 'schedule' }}
       - run: npm run build
+        env:
+          VITE_GITHUB_REPOSITORY: ${{ github.repository }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

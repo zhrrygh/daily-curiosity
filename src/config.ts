@@ -1,1 +1,1 @@
-export const feedbackSite='https://daily-curiosity-zhrrygh.hugohu0423.chatgpt.site/#feedback';
+export const githubRepository=import.meta.env.VITE_GITHUB_REPOSITORY||'';
