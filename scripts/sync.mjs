@@ -12,7 +12,7 @@ async function main(){
  if(origin.protocol!=='https:'||origin.hostname!=='daily-curiosity-zhrrygh.hugohu0423.chatgpt.site')throw Error('Unexpected source origin');
  const token=process.env.SOURCE_SITE_TOKEN;
  if(!token){if(process.env.REQUIRE_SYNC==='true')throw Error('SOURCE_SITE_TOKEN secret is missing');console.log('No sync credential; using committed snapshot.');return}
- async function get(path){const r=await fetch(new URL(path,origin),{headers:{'OAI-Sites-Authorization':'Bearer '+token},redirect:'error',signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('Source request failed: '+r.status);return r.json()}
+ async function get(path){const r=await fetch(new URL(path,origin),{headers:{'OAI-Sites-Authorization':'Bearer '+token},redirect:'error',signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('Source request failed: '+r.status+' '+(await r.text()).slice(0,300));return r.json()}
  const feed=await get('/api/feed');if(!feed.edition)throw Error('No source edition');
  const dates=feed.dates.filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).slice(0,90);
  const outputs=[];
