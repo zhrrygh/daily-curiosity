@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-代码已准备，尚未绑定 GitHub 账号、创建仓库或发布。反馈会打开 GitHub Issue 草稿，需要用户登录并确认提交；不会导出原私人反馈记录或个性化编辑说明。
+已发布：https://zhrrygh.top/daily-curiosity/ 。仓库：https://github.com/zhrrygh/daily-curiosity 。反馈会打开 GitHub Issue 草稿，需要用户登录并确认提交；不会导出原私人反馈记录或个性化编辑说明。
 
 ## 本地运行
 
@@ -24,4 +24,4 @@ npm run build
 
 现有云端选编每天北京时间 08:00 开始。Pages 工作流在 08:10、08:30 同步，另每六小时重试；GitHub 定时工作流可能延迟，因此不保证 08:00 整即完成发布。同步只读取日报数据，失败不会替换已部署页面。工作流先检验全部日报，再构建与发布。仓库使用相对资源路径，支持 username.github.io/repository/ 子目录。
 
-普通 GitHub Pages 页面公开可访问。发布前需要确认账号、仓库和公开范围。反馈通过公开 GitHub Issues 提交，仅仓库所有者提交的意见会同步进个人选编偏好。其他访客的 Issue 不会影响你的偏好。同步使用受保护的 Actions Secret，不向网页暴露凭据。
+普通 GitHub Pages 页面公开可访问。用户已确认日报和 GitHub 反馈公开。反馈通过公开 GitHub Issues 提交，仅仓库所有者提交的意见会同步进个人选编偏好。其他访客的 Issue 不会影响你的偏好。同步使用受保护的 Actions Secret，不向网页暴露凭据。
