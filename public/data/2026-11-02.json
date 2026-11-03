@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-02",
+  "intro": "今天，从星云里的猫出发，绕过城市街角和章鱼的大脑，最后停在一场小小的音乐现场。",
+  "adaptation": "文章核心内容可直接在本站阅读，原文链接供查证。",
+  "items": [
+    {
+      "id": "cat-head-20261029",
+      "kind": "图片",
+      "title": "宇宙里有一只猫，换个波段才能看清",
+      "summary": "同一片星云，哈勃看见幽暗的尘埃轮廓，韦布的红外视野却揭开了藏在其中的恒星。这张三联图，让你直接看见“观察方式改变世界”。",
+      "reason": "把三个视角并排看，比单看一张太空照片更有意思。",
+      "source": "ESA/Hubble",
+      "url": "https://esahubble.org/images/heic2614a/",
+      "published": "2026-10-29",
+      "tags": [
+        "宇宙",
+        "摄影"
+      ],
+      "image": "https://cdn.esahubble.org/archives/images/screen/heic2614a.jpg",
+      "credit": "NASA & ESA",
+      "classic": false
+    },
+    {
+      "id": "mars-design-20261028",
+      "kind": "文章",
+      "title": "为什么路牌、手机和城市，值得重新看一眼？",
+      "summary": "设计播客 99% Invisible 的主持人 Roman Mars，与 Tyler Cowen 聊起街道标识、汽车外形和城市生活。那些习以为常的东西，背后藏着一连串设计取舍。",
+      "reason": "已整理中文核心内容，可直接在本站阅读。",
+      "source": "Conversations with Tyler",
+      "url": "https://conversationswithtyler.com/episodes/roman-mars/",
+      "published": "2026-10-28",
+      "tags": [
+        "设计",
+        "城市"
+      ],
+      "classic": false,
+      "reading": {
+        "takeaway": "日常设计的关键，是它如何服务使用者；看起来平庸的外形，往往包含成本、安全和大众需求的取舍。",
+        "sections": [
+          {
+            "heading": "路牌先要让人看清",
+            "body": "Mars 更在乎路牌是否清晰、位置是否合适。为司机设置的标识，行人站在街角反而可能看不到。设计是否成功，取决于具体使用场景。"
+          },
+          {
+            "heading": "汽车为什么越来越像",
+            "body": "他认为，旧式汽车鲜明的外形也伴随耗材、能耗与安全问题。现代车辆受这些约束，再加上量产面向大众，外形容易趋同。"
+          },
+          {
+            "heading": "城市之美需要持续照料",
+            "body": "他欣赏新旧建筑彼此呼应的城市空间，认为美感来自长期的文化与个体选择。提高建造效率，与保留地方特色之间存在张力。"
+          }
+        ],
+        "caveat": "这些是访谈中的设计判断，带有个人审美；效率与美之间也并非只能二选一。"
+      }
+    },
+    {
+      "id": "cephalopod-dna-20261009",
+      "kind": "新闻",
+      "title": "章鱼的聪明，也许与 DNA 怎样折叠有关",
+      "summary": "维也纳大学团队研究头足类基因组的三维组织，发现古老的基因组重排可能改变了 DNA 区段之间的接触与基因调控。这为复杂神经系统的演化提供了线索，尚不是对“聪明”的完整解释。",
+      "reason": "跳出“有什么基因”，看看“基因如何排布”这个新角度。",
+      "source": "维也纳大学",
+      "url": "https://www.univie.ac.at/aktuelles/press-room/pressemeldungen/detail/3d-struktur-von-dna-koennte-erklaeren-wie-kopffuesser-komplexe-gehirne-entwickelten",
+      "published": "2026-10-09",
+      "tags": [
+        "生命科学",
+        "动物"
+      ],
+      "classic": false,
+      "reading": {
+        "takeaway": "基因的作用可能不仅取决于序列，还取决于 DNA 在细胞中的三维接触关系。",
+        "sections": [
+          {
+            "heading": "研究看了什么",
+            "body": "团队比较头足类的基因组三维结构，并结合基因活动数据，考察古老的基因组重排如何改变调控关系。"
+          },
+          {
+            "heading": "得到什么线索",
+            "body": "重排使原本相距较远的 DNA 区段靠近，可能形成新的调控网络。较大的结构单元相对稳定，细小的染色质环则更易变化；部分变化邻近与神经系统有关的基因。"
+          },
+          {
+            "heading": "为什么值得关注",
+            "body": "这提示基因组的空间组织可能参与塑造演化，而不仅是演化后的被动结果。研究为头足类复杂神经系统的起源提供了一个机制方向。"
+          }
+        ],
+        "caveat": "研究并未证明某种折叠方式直接导致聪明；相关调控线索不等于完整的因果解释。"
+      }
+    },
+    {
+      "id": "math-beauty-20200616",
+      "kind": "文章",
+      "title": "数学的美：整齐的规律，还是古怪的例外？",
+      "summary": "Robbert Dijkgraaf 把数学美分成两种气质：一种来自普遍结构，一种来自独一无二的奇异对象。即使不熟悉公式，也可以从这场审美分歧走近数学家的世界。",
+      "reason": "已整理中文核心内容，可直接在本站阅读。",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/how-is-math-beautiful-20200616/",
+      "published": "2020-06-16",
+      "tags": [
+        "数学",
+        "美学"
+      ],
+      "classic": true,
+      "reading": {
+        "takeaway": "数学之美既来自普遍规律，也来自罕见例外；但美感不能代替对现实的验证。",
+        "sections": [
+          {
+            "heading": "一种美，是结构的统一",
+            "body": "自然数、不同维度的空间和逻辑结构，展示了可以推广的秩序。抽象的价值在于用同一种方法理解一整类对象。"
+          },
+          {
+            "heading": "另一种美，是独特的存在",
+            "body": "正十二面体等特殊对象像收藏柜中的奇石，因少见而吸引人。研究例外也能发现不同数学领域之间的联系。"
+          },
+          {
+            "heading": "漂亮的模型也可能错误",
+            "body": "作者以开普勒尝试用规则多面体解释行星轨道为例：形式优美不保证符合观测。探索自然时，需要区分数学上的可能性与世界实际遵循的规律。"
+          }
+        ],
+        "caveat": "这是作者对数学审美与科学方法的论述，不是判定所有理论优劣的公式。"
+      }
+    },
+    {
+      "id": "flags-ted-20150514",
+      "kind": "视频",
+      "title": "一面小小的城市旗帜，能有多糟糕？",
+      "summary": "Roman Mars 用城市旗帜讲清设计的基本原则。看完之后，你可能会忍不住重新观察身边的标志、图案和配色。",
+      "reason": "从一个很小、很好笑的入口，打开设计观察力。英语演讲，字幕以原站为准。",
+      "source": "TED",
+      "url": "https://www.ted.com/talks/roman_mars_why_city_flags_may_be_the_worst_designed_thing_you_ve_never_noticed",
+      "published": "2015",
+      "tags": [
+        "设计",
+        "文化"
+      ],
+      "classic": true
+    },
+    {
+      "id": "anderson-paak-tinydesk",
+      "kind": "音乐",
+      "title": "把耳机戴上，让 Tiny Desk 接管一会儿",
+      "summary": "Anderson .Paak 与 The Free Nationals 的小型现场。没有宏大舞台，音乐就在一张办公桌前发生。今天用这一场演出，给阅读换个节奏。",
+      "reason": "一次温暖、充满律动的经典现场发现。点击到 NPR 官方 YouTube 视频收听。",
+      "source": "NPR Music",
+      "url": "https://www.youtube.com/watch?v=ferZnZ0_rSM",
+      "published": "2016",
+      "tags": [
+        "音乐",
+        "现场"
+      ],
+      "classic": true
+    }
+  ]
+}

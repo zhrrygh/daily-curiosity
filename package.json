@@ -1,0 +1,20 @@
+{
+  "name": "daily-curiosity-github",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "sync": "node scripts/sync.mjs",
+    "test": "node --test scripts/sync.test.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "typescript": "5.9.3"
+  }
+}
